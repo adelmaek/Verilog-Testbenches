@@ -1,0 +1,103 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/adelmahm/Desktop/Masters/Advanced CO/vhdlProject
+vlatch
+Z0 !s110 1623794218
+!i10b 1
+!s100 cOSHAO3?;fPEgz[aM=H8M1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0WOk8<=HbIXdlCIP9EUH`1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject
+Z4 w1623703606
+Z5 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v
+Z6 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v
+!i122 21
+L0 1 17
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1623794218.000000
+Z9 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vlatch_tb
+R0
+!i10b 1
+!s100 W4HXV7V]9;<8bf@`F9S[:0
+R1
+IC`3IanXaOYoWVlglD`GPO1
+R2
+R3
+R4
+R5
+R6
+!i122 21
+L0 21 46
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vrs_ff
+Z13 !s110 1623794269
+!i10b 1
+!s100 e8z7c_A^OLZEH5AO62SbJ0
+R1
+I_?<2]5Iflf[boAlYE3P;73
+R2
+R3
+Z14 w1623794259
+Z15 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
+Z16 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
+!i122 23
+L0 1 19
+R7
+r1
+!s85 0
+31
+Z17 !s108 1623794269.000000
+!s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+!i113 1
+R11
+R12
+vrs_ff_tb
+R13
+!i10b 1
+!s100 zmZc[gePhdR9?^9:lG<Q:3
+R1
+IM8mSjUL`haP^KDAa>^f8n3
+R2
+R3
+R14
+R15
+R16
+!i122 23
+L0 24 35
+R7
+r1
+!s85 0
+31
+R17
+Z19 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+R18
+!i113 1
+R11
+R12

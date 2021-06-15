@@ -1,0 +1,9 @@
+{C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module latch
+-- Compiling module latch_tb
+
+Top level modules:
+	latch_tb
+
+} {} {}}

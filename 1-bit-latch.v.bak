@@ -1,0 +1,52 @@
+module latch(
+    input wire d,
+    input wire clk,
+    output wire q,
+    output wire nq
+);
+
+always @(d, clk)
+    if(clk)
+    begin
+        q <= d;
+        nq <= ~d;
+    end
+end
+
+end module 
+
+
+module latch_tb;
+
+reg clk, d;
+wire  q, nq;
+
+initial 
+begin
+    $monitor ("[%0t] clk = %0b  d=%0b q=%0b nq=%0b", $time, clk, d, q, nq);
+    
+    d <= 0; clk <= 0; #5;
+
+    d <= 1; #5;
+    if(q == 1'b1 || nq == 1'b0)
+    begin
+        $display("Data acquisition at low clk at time = %0t", $time);
+        $finish;
+    end
+    
+    clk <= 1;
+
+    if(q != 1'b1 || nq != 1'b0)
+    begin
+        $display("q stuck at 0 Or nq stuck at 1 at time %0t", $time);
+        $finish;
+    end
+
+    d <= 0;
+
+
+end
+
+latch UUT(.d(d), .clk(clk), .q(q), .nq(nq));
+
+end module
