@@ -55,49 +55,95 @@ R10
 !i113 1
 R11
 R12
+vmux
+Z13 !s110 1623876337
+!i10b 1
+!s100 lC>7jmXh_mgoF>:GGb[zg2
+R1
+IZ7[mbK1oJLe;XWiB1HcF_3
+R2
+R3
+Z14 w1623876331
+Z15 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v
+Z16 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v
+!i122 25
+L0 2 21
+R7
+r1
+!s85 0
+31
+Z17 !s108 1623876337.000000
+!s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
+Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
+!i113 1
+R11
+R12
+vmux_tb
+R13
+!i10b 1
+!s100 8n@8CFGNBkabhm;d:S:]E2
+R1
+I1e0INOXVA<^b2PgNXH[o11
+R2
+R3
+R14
+R15
+R16
+!i122 25
+L0 25 83
+R7
+r1
+!s85 0
+31
+R17
+Z19 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
+R18
+!i113 1
+R11
+R12
 vrs_ff
-Z13 !s110 1623794269
+Z20 !s110 1623794269
 !i10b 1
 !s100 e8z7c_A^OLZEH5AO62SbJ0
 R1
 I_?<2]5Iflf[boAlYE3P;73
 R2
 R3
-Z14 w1623794259
-Z15 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
-Z16 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
+Z21 w1623794259
+Z22 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
+Z23 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
 !i122 23
 L0 1 19
 R7
 r1
 !s85 0
 31
-Z17 !s108 1623794269.000000
-!s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+Z24 !s108 1623794269.000000
+Z25 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
 !i113 1
 R11
 R12
 vrs_ff_tb
-R13
+R20
 !i10b 1
 !s100 zmZc[gePhdR9?^9:lG<Q:3
 R1
 IM8mSjUL`haP^KDAa>^f8n3
 R2
 R3
-R14
-R15
-R16
+R21
+R22
+R23
 !i122 23
 L0 24 35
 R7
 r1
 !s85 0
 31
-R17
-Z19 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
-R18
+R24
+R25
+R26
 !i113 1
 R11
 R12
