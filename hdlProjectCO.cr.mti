@@ -1,9 +1,41 @@
-{C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v}
+{C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/and2_sensitivity.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/and2_sensitivity.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module and2
+-- Compiling module and2_tb
+
+Top level modules:
+	and2_tb
+
+} {} {}} {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rs_ff
+-- Compiling module rs_ff_tb
+
+Top level modules:
+	rs_ff_tb
+
+} {} {}} {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/half_adder.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/half_adder.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module half_adder
+-- Compiling module half_adder_tb
+
+Top level modules:
+	half_adder_tb
+
+} {} {}} {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module latch
 -- Compiling module latch_tb
 
 Top level modules:
 	latch_tb
+
+} {} {}} {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v} {1 {vlog -work work -stats=none {C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux
+-- Compiling module mux_tb
+
+Top level modules:
+	mux_tb
 
 } {} {}}

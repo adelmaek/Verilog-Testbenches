@@ -9,42 +9,42 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/adelmahm/Desktop/Masters/Advanced CO/vhdlProject
-vlatch
-Z0 !s110 1623794218
+vand2
+Z0 !s110 1624136100
 !i10b 1
-!s100 cOSHAO3?;fPEgz[aM=H8M1
+!s100 eaaGCLDLazlSc]mL09jO40
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
-I0WOk8<=HbIXdlCIP9EUH`1
+IQJC;::EA^I]TV]L<C;eF82
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 Z3 dC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject
-Z4 w1623703606
-Z5 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v
-Z6 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v
-!i122 21
-L0 1 17
+Z4 w1624133209
+Z5 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/and2_sensitivity.v
+Z6 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/and2_sensitivity.v
+!i122 39
+L0 1 3
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1623794218.000000
-Z9 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v|
-Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v|
+Z8 !s108 1624136099.000000
+Z9 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/and2_sensitivity.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/and2_sensitivity.v|
 !i113 1
 Z11 o-work work
 Z12 tCvgOpt 0
-vlatch_tb
+vand2_tb
 R0
 !i10b 1
-!s100 W4HXV7V]9;<8bf@`F9S[:0
+!s100 PdLAz4j0^ZzboDHe>BFWW3
 R1
-IC`3IanXaOYoWVlglD`GPO1
+IeQ<_9CoKR`NDE_=bj_8351
 R2
 R3
 R4
 R5
 R6
-!i122 21
-L0 21 46
+!i122 39
+L0 7 33
 R7
 r1
 !s85 0
@@ -55,95 +55,233 @@ R10
 !i113 1
 R11
 R12
+vfull_adder
+R0
+!i10b 1
+!s100 z8;=CnSba73nA7Ra=IZlC3
+R1
+IZ6WG5>65QLV563_;g_>CB0
+R2
+R3
+Z13 w1624136093
+Z14 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/full_adder.v
+Z15 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/full_adder.v
+!i122 41
+L0 1 23
+R7
+r1
+!s85 0
+31
+Z16 !s108 1624136100.000000
+!s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/full_adder.v|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/full_adder.v|
+!i113 1
+R11
+R12
+vfull_adder_tb
+R0
+!i10b 1
+!s100 a^L`9RKzB@3V@][IQAgRF0
+R1
+IQA>:SKgP65ZL0i6jz_58N2
+R2
+R3
+R13
+R14
+R15
+!i122 41
+L0 27 53
+R7
+r1
+!s85 0
+31
+R16
+Z18 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/full_adder.v|
+R17
+!i113 1
+R11
+R12
+vhalf_adder
+R0
+!i10b 1
+!s100 >iEi^DgPhBRYM<:E_0:e60
+R1
+I`?ld7NEY212VZ]VJbePi_2
+R2
+R3
+Z19 w1624133753
+Z20 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/half_adder.v
+Z21 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/half_adder.v
+!i122 40
+L0 3 10
+R7
+r1
+!s85 0
+31
+R16
+Z22 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/half_adder.v|
+Z23 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/half_adder.v|
+!i113 1
+R11
+R12
+vhalf_adder_tb
+R0
+!i10b 1
+!s100 >=AJ^DF80W;K1Zh1RB<DZ0
+R1
+ILa1H3O9d3_W9V0Hih=X7I3
+R2
+R3
+R19
+R20
+R21
+!i122 40
+L0 17 33
+R7
+r1
+!s85 0
+31
+R16
+R22
+R23
+!i113 1
+R11
+R12
+vlatch
+Z24 !s110 1624136099
+!i10b 1
+!s100 cOSHAO3?;fPEgz[aM=H8M1
+R1
+I0WOk8<=HbIXdlCIP9EUH`1
+R2
+R3
+Z25 w1624134972
+Z26 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v
+Z27 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v
+!i122 36
+L0 1 17
+R7
+r1
+!s85 0
+31
+R8
+Z28 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v|
+Z29 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/1-bit-latch.v|
+!i113 1
+R11
+R12
+vlatch_tb
+R24
+!i10b 1
+!s100 2G`f]Aa=>6@PkBUXZF@i`2
+R1
+IfM0D6i393FWn]Ra;VY7D63
+R2
+R3
+R25
+R26
+R27
+!i122 36
+L0 21 29
+R7
+r1
+!s85 0
+31
+R8
+R28
+R29
+!i113 1
+R11
+R12
 vmux
-Z13 !s110 1623876337
+R24
 !i10b 1
 !s100 lC>7jmXh_mgoF>:GGb[zg2
 R1
 IZ7[mbK1oJLe;XWiB1HcF_3
 R2
 R3
-Z14 w1623876331
-Z15 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v
-Z16 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v
-!i122 25
+Z30 w1623876331
+Z31 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v
+Z32 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v
+!i122 38
 L0 2 21
 R7
 r1
 !s85 0
 31
-Z17 !s108 1623876337.000000
-!s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
-Z18 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
+R8
+Z33 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
+Z34 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
 !i113 1
 R11
 R12
 vmux_tb
-R13
+R24
 !i10b 1
 !s100 8n@8CFGNBkabhm;d:S:]E2
 R1
 I1e0INOXVA<^b2PgNXH[o11
 R2
 R3
-R14
-R15
-R16
-!i122 25
+R30
+R31
+R32
+!i122 38
 L0 25 83
 R7
 r1
 !s85 0
 31
-R17
-Z19 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/mux.v|
-R18
+R8
+R33
+R34
 !i113 1
 R11
 R12
 vrs_ff
-Z20 !s110 1623794269
+R24
 !i10b 1
 !s100 e8z7c_A^OLZEH5AO62SbJ0
 R1
 I_?<2]5Iflf[boAlYE3P;73
 R2
 R3
-Z21 w1623794259
-Z22 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
-Z23 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
-!i122 23
+Z35 w1623794309
+Z36 8C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
+Z37 FC:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v
+!i122 37
 L0 1 19
 R7
 r1
 !s85 0
 31
-Z24 !s108 1623794269.000000
-Z25 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
-Z26 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+R8
+Z38 !s107 C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
+Z39 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/adelmahm/Desktop/Masters/Advanced CO/verilogProject/rs_ff.v|
 !i113 1
 R11
 R12
 vrs_ff_tb
-R20
+R24
 !i10b 1
 !s100 zmZc[gePhdR9?^9:lG<Q:3
 R1
 IM8mSjUL`haP^KDAa>^f8n3
 R2
 R3
-R21
-R22
-R23
-!i122 23
+R35
+R36
+R37
+!i122 37
 L0 24 35
 R7
 r1
 !s85 0
 31
-R24
-R25
-R26
+R8
+R38
+R39
 !i113 1
 R11
 R12

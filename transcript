@@ -1,16 +1,58 @@
-# Compile of mux.v failed with 1 errors.
-# Compile of mux.v was successful.
-vsim work.mux_tb
-# vsim work.mux_tb 
-# Start time: 22:45:49 on Jun 16,2021
-# Loading work.mux_tb
-# Loading work.mux
+# Compile of and2_sensitivity.v was successful.
+vsim work.and2_tb
+# vsim work.and2_tb 
+# Start time: 21:28:30 on Jun 19,2021
+# Loading work.and2_tb
+# Loading work.and2
 run
-# [0.00ns] s = 0  a=1 b=0 c=0 d=0 ==> z=1
-# [10.00ns] s = 0  a=0 b=1 c=1 d=1 ==> z=0
-# [20.00ns] s = 1  a=0 b=1 c=0 d=0 ==> z=1
-# [30.00ns] s = 1  a=1 b=0 c=1 d=1 ==> z=0
-# [40.00ns] s = 10  a=0 b=0 c=1 d=0 ==> z=1
-# [50.00ns] s = 10  a=1 b=1 c=0 d=1 ==> z=0
-# [60.00ns] s = 11  a=0 b=0 c=0 d=1 ==> z=1
-# [70.00ns] s = 11  a=1 b=1 c=1 d=0 ==> z=0
+# [0.00ns] a=0 b=0 c=0
+# [10.00ns] a=1 b=0 c=0
+# [20.00ns] a=1 b=1 c=1
+# [30.00ns] a=0 b=1 c=0
+quit -sim
+# End time: 22:03:40 on Jun 19,2021, Elapsed time: 0:35:10
+# Errors: 0, Warnings: 3
+# Compile of 1-bit-latch.v was successful.
+# Compile of rs_ff.v was successful.
+# Compile of mux.v was successful.
+# Compile of and2_sensitivity.v was successful.
+# Compile of half_adder.v was successful.
+# 5 compiles, 0 failed with no errors.
+vsim work.half_adder_tb
+# vsim work.half_adder_tb 
+# Start time: 22:13:53 on Jun 19,2021
+# Loading work.half_adder_tb
+# Loading work.half_adder
+run
+# [0.00ns] a=0 b=0 s=0 c=0
+# [10.00ns] a=0 b=1 s=1 c=0
+# [20.00ns] a=1 b=0 s=1 c=0
+# [30.00ns] a=1 b=1 s=0 c=1
+quit -sim
+# End time: 22:16:14 on Jun 19,2021, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 3
+# Compile of full_adder.v failed with 9 errors.
+# Compile of full_adder.v failed with 8 errors.
+# Compile of full_adder.v was successful.
+# Compile of full_adder.v was successful.
+# Compile of 1-bit-latch.v was successful.
+# Compile of rs_ff.v was successful.
+# Compile of mux.v was successful.
+# Compile of and2_sensitivity.v was successful.
+# Compile of half_adder.v was successful.
+# Compile of full_adder.v was successful.
+# 6 compiles, 0 failed with no errors.
+vsim work.full_adder_tb
+# vsim work.full_adder_tb 
+# Start time: 22:55:18 on Jun 19,2021
+# Loading work.full_adder_tb
+# Loading work.full_adder
+run
+# [0.00ns] a=0 b=0 c_in=0 s=0 c_out=0
+# [10.00ns] a=0 b=0 c_in=1 s=1 c_out=0
+# [20.00ns] a=0 b=1 c_in=0 s=1 c_out=0
+# [30.00ns] a=0 b=1 c_in=1 s=0 c_out=1
+# [40.00ns] a=1 b=0 c_in=0 s=1 c_out=0
+# [50.00ns] a=1 b=0 c_in=1 s=0 c_out=1
+# [60.00ns] a=1 b=1 c_in=0 s=0 c_out=1
+# [70.00ns] a=1 b=1 c_in=1 s=1 c_out=1
